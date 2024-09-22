@@ -1,0 +1,51 @@
+{
+  "name": "astro-landing-page",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier --write **/*.astro .",
+    "clean": "rimraf dist .astro node_modules"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^5.1.0",
+    "@iconify-json/fa-brands": "^1.1.8",
+    "@iconify-json/mdi": "^1.1.66",
+    "@react-three/drei": "^9.108.1",
+    "@react-three/fiber": "^8.16.8",
+    "@react-three/postprocessing": "^2.16.2",
+    "@types/micromodal": "^0.3.5",
+    "@types/three": "0.152.1",
+    "astro": "^4.6.3",
+    "astro-icon": "^1.1.0",
+    "autoprefixer": "^10.4.19",
+    "jotai": "^2.8.4",
+    "leva": "^0.9.35",
+    "maath": "^0.10.8",
+    "postcss": "^8.4.39",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^5.0.5",
+    "tailwindcss-fluid-type": "^2.0.6",
+    "three": "^0.166.1",
+    "three-stdlib": "^2.30.5",
+    "vite-plugin-glsl": "^1.3.0",
+    "wiggle": "^0.0.17"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.6.2",
+    "@fontsource-variable/inter": "^5.0.17",
+    "micromodal": "^0.4.10",
+    "sharp": "^0.33.3",
+    "tailwindcss": "^3.4.3",
+    "tiny-invariant": "^1.3.3"
+  }
+}

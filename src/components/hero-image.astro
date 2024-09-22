@@ -1,0 +1,15 @@
+---
+import { Image } from "astro:assets";
+import moonImage from "~/assets/moon1.jpeg";
+
+const widths = [450, 800, 1200];
+const sizes = "100vw";
+---
+
+<Image
+  class="h-full w-full object-cover"
+  src={moonImage}
+  widths={widths}
+  sizes={sizes}
+  alt="Jorge G Dev"
+/>

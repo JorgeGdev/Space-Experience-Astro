@@ -1,0 +1,17 @@
+.transition-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none; /* Permite la interacción con los elementos detrás */
+    z-index: 100;
+  }
+  
+  .transition-overlay.visible {
+    opacity: 1;
+  }
+  
