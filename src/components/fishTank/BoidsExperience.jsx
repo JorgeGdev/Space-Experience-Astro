@@ -265,7 +265,7 @@ export const BoidsExperience = () => {
 
       {/* Overlay solo durante la transición */}
       {overlayVisible && (
-        <mesh ref={overlayMeshRef} position={[0, 0, 2]} scale={[8, 8, 1]}>
+        <mesh ref={overlayMeshRef} position={[0, 0, 2]} scale={[25, 25, 1]}>
           <planeGeometry args={[1, 1]} />
           <meshBasicMaterial
             ref={overlayMaterialRef}
